@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+body {
+    font-family: "Heebo", sans-serif;
+    background-color: #dfdfdf;
+    color: #000000;
+    font-weight: 700;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90vh;
+}
+
+.leftItem {
+    height: 100%;
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 7px 20px;
+    font-size: 20PX;
+}
+
+a 
+{
+    text-decoration: none;
+    color: #0058d4;
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid #716766;
+    z-index: -1;
+    position: relative;
+    height: 90%;
+}
+
+#finalList {
+    position: absolute;
+    font-size: 120%;
+}
+
+#timer {
+    color: #FF0000;
+    font-size: 30px;
+}
+
+#trackList > li, #finalList > li {
+    cursor: pointer;
+}
+
+#trackList > li:hover {
+    color: #E3D200;
+}
+
+#finalList > li:hover{
+    color: #FF0000;
+}
+
+@media screen and (max-width: 450px) 
+{
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 90vh;
+    }
+
+    img {
+        width: 95vw;
+        height: 95vw;
+    }
+
+    #finalList {
+        margin: 0;
+        font-size: 80%;
+    }
+
+    #timer {
+        margin: 0;
+    }
+}
