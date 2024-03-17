@@ -121,7 +121,7 @@ function shareAlbumFunction()
         songList += temp + ". " + finalList[song] + "\n";
         temp++;
     }
-    msg = "This Is My White Album As A Single Album List:\n" + songList + "\nWith Total Time of " + (subtractMinutes(47.00, time).toString()).replace(/\./g, ":") + " Minutes\n" + "https//yardenfalik.github.io/makethewhitealbumasinglealbum/";
+    msg = "Here Is My White Album As A Single Album List:\n" + songList + "\nWith A Total Time of " + (subtractMinutes(47.00, time).toString()).replace(/\./g, ":") + " Minutes\n" + "https://yardenfalik.github.io/mtwas/";
     navigator.clipboard.writeText(msg);
     alert("The List Has Been Copied To Your Clipboard");
 }
