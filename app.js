@@ -61,7 +61,7 @@ function subtractMinutes(time, timeToSubtract, format = "sub") {
 
     diffMin = 0;
 
-    while(diffSec > 60)
+    while(diffSec >= 60)
     {
         diffSec -= 60;
         diffMin += 1;
