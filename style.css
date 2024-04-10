@@ -47,6 +47,7 @@ img {
     position: absolute;
     font-size: 120%;
     width: 35vw;
+    height: 35vw;
     z-index: 2;
     text-shadow: 2px 2px 20px #ffffff;
     background-color: #ffffff53;
