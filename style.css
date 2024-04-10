@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-:root {
-    --hightScreen: height: 90%;;
-}
-
 body {
     font-family: "Inter", sans-serif;
     background-color: #dfdfdf;
@@ -45,12 +41,13 @@ img {
 
 #finalList {
     position: absolute;
-    font-size: 120%;
+    font-size: 1.7vw;
     width: 35vw;
     height: 35vw;
     z-index: 2;
     text-shadow: 2px 2px 20px #ffffff;
     background-color: #ffffff53;
+    margin: auto;
 }
 
 #timer {
@@ -82,7 +79,7 @@ img {
     position: absolute;
     top: 30vw;
     left: 20vw;
-
+    font-size:3vw;
 }
 
 @media screen and (max-width: 450px) 
@@ -105,5 +102,11 @@ img {
 
     #timer {
         margin: 0;
+    }
+
+    .albumCover > h1 {
+        top: 80vw;
+        left: 20vw;
+        font-size: 300%;
     }
 }
